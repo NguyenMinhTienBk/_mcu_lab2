@@ -38,3 +38,62 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\MCU_LAB\lab2_offica
 
 !ENTRY org.eclipse.cdt.core 1 0 2022-10-19 12:15:30.290
 !MESSAGE Indexed 'lab2' (19 sources, 80 headers) in 1.55 sec: 4,854 declarations; 29,876 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0058%)
+!SESSION 2022-10-19 12:28:09.848 -----------------------------------------------
+eclipse.buildId=Version 1.7.0
+java.version=11.0.10
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  D:\MCU_LAB\lab2_offical\lab2\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 D:\MCU_LAB\lab2_offical\lab2\.project
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-10-19 12:28:12.695
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-10-19 12:28:15.341
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-10-19 12:28:15.388
+!MESSAGE Log4j initialized with config file D:\MCU_LAB\lab2_offical\.metadata\.log4j.xml
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-10-19 12:28:19.775
+!MESSAGE Failed to open C/C++ index file D:\MCU_LAB\lab2_offical\.metadata\.plugins\org.eclipse.cdt.core\lab2.1666151722807.pdom - rebuilding the index
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: lab2.1666151722807.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.getLinkageID(PDOMLinkage.java:140)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.readLinkages(PDOM.java:476)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.loadDatabase(PDOM.java:457)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.<init>(PDOM.java:432)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:67)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:62)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getOrCreatePDOM(PDOMManager.java:391)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.createIndexer(PDOMManager.java:592)
+	at org.eclipse.cdt.internal.core.pdom.PDOMSetupJob.run(PDOMSetupJob.java:61)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2022-10-19 12:28:19.775
+!MESSAGE Corrupted database: lab2.1666151722807.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-10-19 12:28:19.775
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: lab2.1666151722807.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.getLinkageID(PDOMLinkage.java:140)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.readLinkages(PDOM.java:476)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.loadDatabase(PDOM.java:457)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.<init>(PDOM.java:432)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:67)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:62)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getOrCreatePDOM(PDOMManager.java:399)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.createIndexer(PDOMManager.java:592)
+	at org.eclipse.cdt.internal.core.pdom.PDOMSetupJob.run(PDOMSetupJob.java:61)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2022-10-19 12:28:19.775
+!MESSAGE Corrupted database: lab2.1666151722807.pdom
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-10-19 12:28:24.777
+!MESSAGE Started RMI Server, listening on port 41337

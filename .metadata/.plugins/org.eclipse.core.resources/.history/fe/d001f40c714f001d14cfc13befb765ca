@@ -184,7 +184,7 @@ void updateClockBuffer(int hour, int minute){
 		led_buffer[0] = hour / 10;
 		led_buffer[1] = hour % 10;
 	}
-	if (minute < 10){
+	if (hour < 10){
 		led_buffer[2] = 0;
 		led_buffer[3] = minute;
 	} else {
@@ -297,7 +297,7 @@ int main(void)
 	   hour = 0;
 	   }
 	   updateClockBuffer (hour, minute);
-	   HAL_Delay (1000) ;
+	   HAL_Delay (100) ;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

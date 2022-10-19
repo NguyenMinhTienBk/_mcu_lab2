@@ -200,7 +200,7 @@ void HAL_TIM_PeriodElapsedCallback ( TIM_HandleTypeDef * htim )
 	//timerRun();
 	counter --;
 		if( counter <= 0){
-		counter = 25;
+		counter = 1;
 		if (flag == 0 ){
 			HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
 			HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin); // DOT chi co trong if nay de cho 0.25*4 = 1s
@@ -297,7 +297,7 @@ int main(void)
 	   hour = 0;
 	   }
 	   updateClockBuffer (hour, minute);
-	   HAL_Delay (1000) ;
+	   HAL_Delay (100) ;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
