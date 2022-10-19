@@ -188,6 +188,8 @@ void HAL_TIM_PeriodElapsedCallback ( TIM_HandleTypeDef * htim )
 	counter --;
 		if( counter <= 0){
 		counter = 25;
+
+
 		if (flag == 0 ){
 			HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
 			HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin); // DOT chi co trong if nay de cho 0.25*4 = 1s
