@@ -197,7 +197,7 @@ int counter = 25;
 int flag = 0;
 void HAL_TIM_PeriodElapsedCallback ( TIM_HandleTypeDef * htim )
 {
-	timer_run();
+	timerRun();
 
 
 	///////////////////
@@ -280,7 +280,7 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start_IT (& htim2 );
-  setTimer0(10);
+  setTimer0(1000);
 
   //int hour = 15, minute = 8, second = 50;
   /* USER CODE END 2 */
