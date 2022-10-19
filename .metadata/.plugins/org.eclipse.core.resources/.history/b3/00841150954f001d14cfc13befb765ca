@@ -292,27 +292,27 @@ int main(void)
   while (1)
   {
 	  void update7SEG(int index){
-		  switch (index){
-			case 0: {
-				display7SEG(led_buffer[index]);
-				break ;
-			}
-			case 1:{
-				display7SEG(led_buffer[index]);
-				break ;
-			}
-			case 2:{
-				display7SEG(led_buffer[index]);
-				break ;
-			}
-			case 3:{
-				display7SEG(led_buffer[index]);
-				break ;
-			}
-			default :{
-			break ;
-			}
-		  }
+	  		      switch (index){
+	  		  		case 0: {
+	  		  			display7SEG(led_buffer[index]);
+	  		  			break ;
+	  		  		}
+	  		  		case 1:{
+	  		  			display7SEG(led_buffer[index]);
+	  		  			break ;
+	  		  		}
+	  		  		case 2:{
+	  		  			display7SEG(led_buffer[index]);
+	  		  			break ;
+	  		  		}
+	  		  		case 3:{
+	  		  			display7SEG(led_buffer[index]);
+	  		  			break ;
+	  		  		}
+	  		  		default :{
+	  		  		break ;
+	  		  		}
+	  		      }
 	  }
 
 	  if (timer0_flag == 1){
